@@ -1,0 +1,15 @@
+# Compiled C binaries
+ns_exp014_main
+twins_only
+*.o
+*.out
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# macOS metadata
+.DS_Store
