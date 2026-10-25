@@ -1,0 +1,29 @@
+{
+  "G1_continuous_4D": {
+    "regret_cg_hsts_4d": "0.3960 \u00b1 0.0659",
+    "regret_stosoo_4d": "0.8909 \u00b1 0.1080",
+    "regret_lhs_4d": "2.2411 \u00b1 0.1544",
+    "diff_vs_stosoo": "-0.4949 \u00b1 0.1307 (p = 1.64e-04)",
+    "diff_vs_lhs": "-1.8451 \u00b1 0.1762 (p = 2.10e-25)"
+  },
+  "G2_general_branching": {
+    "algebraic_reduction_H_residual": 0.0,
+    "algebraic_reduction_Q_residual": 3.552713678800501e-15,
+    "quaternary_4ary_1024": {
+      "regret_universal_cg_hsts": "0.273 \u00b1 0.048",
+      "regret_standard_uct": "0.907 \u00b1 0.096",
+      "regret_reduction_vs_uct": "-0.634 \u00b1 0.110 (p = 1.06e-08)",
+      "reward_universal_cg_hsts": "534.1 \u00b1 44.5",
+      "reward_standard_uct": "519.2 \u00b1 45.2",
+      "reward_gain_vs_uct": "+14.9 \u00b1 15.2 (p = 3.28e-01)"
+    },
+    "primorial_2x3x5x7x5_1050": {
+      "regret_universal_cg_hsts": "0.332 \u00b1 0.047",
+      "regret_standard_uct": "1.055 \u00b1 0.081",
+      "regret_reduction_vs_uct": "-0.724 \u00b1 0.079 (p = 7.26e-20)",
+      "reward_universal_cg_hsts": "411.7 \u00b1 52.0",
+      "reward_standard_uct": "406.2 \u00b1 50.2",
+      "reward_gain_vs_uct": "+5.6 \u00b1 11.4 (p = 6.25e-01)"
+    }
+  }
+}
